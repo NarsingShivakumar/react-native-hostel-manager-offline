@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { StatusBar, LogBox } from 'react-native';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import AppNavigator from './src/navigation/AppNavigator'
 // import { database } from './database';
 import {database} from './src/database/index'
@@ -32,9 +32,11 @@ export default function App() {
   };
 
   return (
+    <SafeAreaView style={{ flex: 1 }} edges={["bottom"]}>
     <SafeAreaProvider>
       <StatusBar barStyle="light-content" backgroundColor="#6200ee" />
       <AppNavigator />
     </SafeAreaProvider>
+    </SafeAreaView>
   );
 }
