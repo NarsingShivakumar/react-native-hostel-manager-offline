@@ -34,6 +34,19 @@
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>PG Zen needs access to your camera to take guest photos</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>PG Zen needs access to your photo library to select guest photos</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>PG Manager needs access to save photos</string>
+	<key>NSContactsUsageDescription</key>
+	<string>PG Manager needs access to contacts to save guest information</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>PG Manager needs access to your microphone for voice features</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>PG Manager needs your location for nearby services</string>
+	
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>
