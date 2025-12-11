@@ -22,7 +22,7 @@ target 'PGZen' do
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
-
+  pod 'simdjson', path: '../node_modules/@nozbe/simdjson', modular_headers: true
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
   post_install do |installer|

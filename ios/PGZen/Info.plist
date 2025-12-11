@@ -42,13 +42,16 @@
 	<string>PG Manager needs access to save photos</string>
 	<key>NSContactsUsageDescription</key>
 	<string>PG Manager needs access to contacts to save guest information</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>PG Manager needs access to your microphone for voice features</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>PG Manager needs your location for nearby services</string>
-	
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>PG Manager needs access to your microphone for voice features</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>PG Manager needs access to save photos</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>PG Zen needs access to your photo library to select guest photos</string>
+	<key>RCTNewArchEnabled</key>
+	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -61,6 +64,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>LSApplicationQueriesSchemes</key>
+    <array>
+       <string>tel</string>
+    </array>
+
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 </dict>
